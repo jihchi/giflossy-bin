@@ -20,14 +20,14 @@ afterEach(function (cb) {
 	rimraf(tmp, {disableGlob: true}, cb);
 });
 
-it('rebuild the gifsicle binaries', function (cb) {
+it('rebuild the giflossy binaries', function (cb) {
 	var cfg = [
 		'./configure --disable-gifview --disable-gifdiff',
 		'--prefix="' + tmp + '" --bindir="' + tmp + '"'
 	].join(' ');
 
 	new BinBuild()
-		.src('https://github.com/kohler/gifsicle/archive/v1.88.tar.gz')
+		.src('https://github.com/pornel/giflossy/archive/lossy/1.82.1.tar.gz')
 		.cmd('autoreconf -ivf')
 		.cmd(cfg)
 		.cmd('make install')

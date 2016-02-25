@@ -1,3 +1,4 @@
 node_modules
 test/tmp
 vendor/gifsicle*
+.DS_Store
