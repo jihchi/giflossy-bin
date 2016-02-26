@@ -8,6 +8,13 @@
 $ npm install --save giflossy
 ```
 
+## Included Binaries
+
+- [x] Mac OS X
+- [ ] Linux x64
+- [ ] Linux x86
+- [ ] Windows x64
+- [ ] Windows x86
 
 ## Usage
 
