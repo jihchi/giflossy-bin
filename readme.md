@@ -1,7 +1,7 @@
 # giflossy-bin
 
-[![npm version](https://img.shields.io/npm/v/giflossy?style=flat-square)](https://www.npmjs.com/package/giflossy)
-[![npm downloads](https://img.shields.io/npm/dm/giflossy?style=flat-square)](https://www.npmjs.com/package/giflossy)
+[![npm version](https://img.shields.io/npm/v/giflossy.svg)](https://www.npmjs.com/package/giflossy)
+[![npm downloads](https://img.shields.io/npm/dm/giflossy.svg)](https://www.npmjs.com/package/giflossy)
 [![Build Status](https://travis-ci.org/jihchi/giflossy-bin.svg?branch=master)](https://travis-ci.org/jihchi/giflossy-bin)
 
 > [giflossy](https://github.com/pornel/giflossy) is an encoder (based on gifsicle) which implements lossy LZW compression. It can reduce animgif file sizes by 30%—50% at a cost of some dithering/noise..
