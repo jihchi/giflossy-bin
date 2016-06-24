@@ -37,7 +37,7 @@ it('rebuild the giflossy binaries', function (cb) {
 				return;
 			}
 
-			assert(fs.statSync(path.join(tmp, 'giflossy')).isFile());
+			assert(fs.statSync(path.join(tmp, 'gifsicle')).isFile());
 			cb();
 		});
 });
