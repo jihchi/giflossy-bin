@@ -1,9 +1,4 @@
-# giflossy-bin
-
-[![npm version](https://img.shields.io/npm/v/giflossy.svg)](https://www.npmjs.com/package/giflossy)
-[![npm downloads](https://img.shields.io/npm/dm/giflossy.svg)](https://www.npmjs.com/package/giflossy)
-[![Build Status](https://travis-ci.org/jihchi/giflossy-bin.svg?branch=master)](https://travis-ci.org/jihchi/giflossy-bin)
-[![Build status](https://ci.appveyor.com/api/projects/status/lblrhmvt58uyqcmc?svg=true)](https://ci.appveyor.com/project/jihchi/giflossy-bin)
+# giflossy-bin [![npm version](https://img.shields.io/npm/v/giflossy.svg)](https://www.npmjs.com/package/giflossy) [![npm downloads](https://img.shields.io/npm/dm/giflossy.svg)](https://www.npmjs.com/package/giflossy) [![Build Status](https://travis-ci.org/jihchi/giflossy-bin.svg?branch=master)](https://travis-ci.org/jihchi/giflossy-bin) [![Build status](https://ci.appveyor.com/api/projects/status/lblrhmvt58uyqcmc?svg=true)](https://ci.appveyor.com/project/jihchi/giflossy-bin)
 
 > [giflossy](https://github.com/pornel/giflossy) is an encoder (based on gifsicle) which implements lossy LZW compression. It can reduce animgif file sizes by 30%—50% at a cost of some dithering/noise..
 
@@ -24,10 +19,10 @@ $ npm install --save giflossy
 ## Usage
 
 ```js
-var execFile = require('child_process').execFile;
-var giflossy = require('giflossy');
+const {execFile} = require('child_process');
+const giflossy = require('giflossy');
 
-execFile(giflossy, ['-O3' '--lossy=80', '-o', 'output.gif', 'input.gif'], function (err) {
+execFile(giflossy, ['-O3' '--lossy=80', '-o', 'output.gif', 'input.gif'], err => {
 	console.log('Image minified!');
 });
 ```
