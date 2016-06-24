@@ -1,6 +1,6 @@
 {
   "name": "giflossy",
-  "version": "1.0.0-rc2",
+  "version": "3.0.0",
   "description": "giflossy wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "jihchi/giflossy-bin",

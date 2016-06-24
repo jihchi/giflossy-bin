@@ -9,6 +9,7 @@ var BinBuild = require('bin-build');
 var compareSize = require('compare-size');
 var mkdirp = require('mkdirp');
 var rimraf = require('rimraf');
+
 var tmp = path.join(__dirname, 'tmp');
 
 beforeEach(function (cb) {
@@ -36,7 +37,7 @@ it('rebuild the giflossy binaries', function (cb) {
 				return;
 			}
 
-			assert(fs.statSync(path.join(tmp, 'gifsicle')).isFile());
+			assert(fs.statSync(path.join(tmp, 'giflossy')).isFile());
 			cb();
 		});
 });
