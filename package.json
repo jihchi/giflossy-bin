@@ -1,6 +1,6 @@
 {
   "name": "giflossy",
-  "version": "3.0.4",
+  "version": "3.0.41",
   "description": "giflossy wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "imagemin/gifsicle-bin",
