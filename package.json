@@ -3,28 +3,7 @@
   "version": "3.0.41",
   "description": "giflossy wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/gifsicle-bin",
-  "author": {
-    "name": "Kevin Martensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
-  },
-  "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    },
-    {
-      "name": "Jih-Chi Lee",
-      "email": "achi@987.tw",
-      "url": "github.com/jihchi"
-    }
-  ],
+  "repository": "jihchi/giflossy-bin",
   "engines": {
     "node": ">=0.10.0"
   },
